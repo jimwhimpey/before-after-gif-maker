@@ -2,7 +2,7 @@
 
 Input: `before.png` and `after.png`. Output:
 
-![Before After Example](https://cloud.githubusercontent.com/assets/43693/21069503/5a9b7532-be2f-11e6-8e11-210d4d96ecfe.gif)
+![Before After Example](https://cloud.githubusercontent.com/assets/43693/21069871/0c1945ca-be33-11e6-8812-7ac38864d705.gif)
 
 ## Prerequsites
 
