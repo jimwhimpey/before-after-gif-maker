@@ -14,4 +14,6 @@ convert after.png \
 
 gifsicle --delay=150 --loop --colors 256 --merge labelled-before.gif labelled-after.gif -o beforeafter.gif \
 
+rm labelled-before.gif labelled-after.gif
+
 open beforeafter.gif -a safari
