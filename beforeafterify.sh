@@ -9,12 +9,14 @@ while [[ "$#" > 1 ]]; do case $1 in
 done
 
 magick ${before:-before.png} \
+	-resize 50% \
 	-colorspace sRGB \
 	-fill 'rgba(0,0,0,0.8)' -draw 'rectangle 10,10,160,62' \
 	-fill 'rgba(255,255,255, 0.7)' -font /Users/jwhimpey/Library/Fonts/OperatorMono-BoldItalic.otf -pointsize 38 -annotate +21+47 'Before' \
 	labelled-before.gif \
 
 magick ${after:-after.png} \
+	-resize 50% \
 	-colorspace sRGB \
 	-fill 'rgba(0,0,0,0.8)' -draw 'rectangle 10,10,160,62' \
 	-fill 'rgba(255,255,255, 0.7)' -font /Users/jwhimpey/Library/Fonts/OperatorMono-BoldItalic.otf -pointsize 38 -annotate +32+47 'After' \
